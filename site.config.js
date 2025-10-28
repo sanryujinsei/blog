@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: ``,
-      href: "",
+      name: `2025年`,
+      href: "https://sanryu.vercel.app/goal",
     },
   ], 
   // blog setting (required)
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 60, // revalidate time for [slug], index
+  revalidateTime: 120, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }

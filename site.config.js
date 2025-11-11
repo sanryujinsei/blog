@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `2025年`,
+      name: `Year 2025`,
       href: "https://sanryu.vercel.app/goal",
     },
   ], 
